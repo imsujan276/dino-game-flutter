@@ -1,9 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="np.com.sujangainju.dino_runner">
    <application
-        android:label="dino_runner"
+        android:label="Dino Runner"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9000154121468885~2231589045"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -32,7 +32,7 @@ class Cloud extends GameObject {
 }
 
 List<Cloud> kClouds = [
-  Cloud(worldLocation: const Offset(50, -20)),
-  Cloud(worldLocation: const Offset(150, -10)),
-  Cloud(worldLocation: const Offset(250, -30)),
+  Cloud(worldLocation: const Offset(75, -20)),
+  Cloud(worldLocation: const Offset(200, 0)),
+  Cloud(worldLocation: const Offset(300, -40)),
 ];
